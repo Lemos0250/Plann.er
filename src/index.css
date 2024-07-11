@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+input {
+  color-scheme: dark;
+}
+
+/* 
+1 - Alguns elementos do HTML vêm prensados numa largura mínima e, por isso, alguns layouts podem ficar um pouco diferentes.
+2 - Com isso, controlamos a Largura como precisar e não ficamos sujeitos ao navegador.
+3 - Todos Layout Ficam Corretos.
+*/
